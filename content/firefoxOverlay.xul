@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://tabsearch/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://tabsearch/locale/tabsearch.dtd">
+<overlay id="tabsearch-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="tabsearch-strings" src="chrome://tabsearch/locale/tabsearch.properties"/>
+  </stringbundleset>
+
+  <menupopup id="menu_ToolsPopup">
+    <menuitem id="tabsearch-hello" label="&tabsearch.label;" 
+              oncommand="tabsearch.onMenuItemCommand(event);"/>
+  </menupopup>
+</overlay>

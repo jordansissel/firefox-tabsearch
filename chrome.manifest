@@ -1,0 +1,4 @@
+content	tabsearch	content/
+locale	tabsearch	en-US	locale/en-US/
+skin	tabsearch	classic/1.0	skin/
+overlay	chrome://browser/content/browser.xul	chrome://tabsearch/content/firefoxOverlay.xul
