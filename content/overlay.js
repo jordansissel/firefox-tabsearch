@@ -91,17 +91,17 @@ var tabsearch = {
   },
 
   show_toolbar: function() {
-    var t = document.getElementById("tabsearch-toolbar");
+    var tabsearch_toolbar = document.getElementById("tabsearch-toolbar");
     tabsearch_toolbar.setAttribute("hidden", "");
 
     var input = document.getElementById("tabsearch-find-field");
-    input.focus();
-  }
+    input.inputField.focus();
+  },
 
   hide_toolbar: function() {
     var tabsearch_toolbar = document.getElementById("tabsearch-toolbar");
     tabsearch_toolbar.setAttribute("hidden", "true");
-  }
+  },
 
 };
 

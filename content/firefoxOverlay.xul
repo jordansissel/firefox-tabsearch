@@ -17,7 +17,7 @@
     <command id="tabsearch-show-toolbar" oncommand="tabsearch.show_toolbar()"/>
   </commandset>
 
-  <keyset id="tabsearch-key-set">
+  <keyset id="mainKeyset">
     <key id="tabsearch-show-toolbar" key="'" modifiers="control" oncommand="tabsearch.show_toolbar()"/>
   </keyset> 
 
