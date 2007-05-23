@@ -22,7 +22,7 @@
   </keyset> 
 
   <window id="main-window">
-    <toolbar id="tabsearch-toolbar" insertbefore="status-bar">
+    <toolbar id="tabsearch-toolbar" insertbefore="status-bar" hidden="true">
       <hbox>
         <textbox id="tabsearch-find-field" 
                  onkeypress="tabsearch.onTabSearchKeyPress(event);"
