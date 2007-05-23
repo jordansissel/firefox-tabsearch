@@ -24,12 +24,12 @@
   <window id="main-window">
     <toolbar id="tabsearch-toolbar" insertbefore="status-bar" hidden="true">
       <hbox>
+        <label value="Search tabs:" />
         <textbox id="tabsearch-find-field" 
                  onkeypress="tabsearch.onTabSearchKeyPress(event);"
                  onblur="tabsearch.onTabSearchBlur(event);"
                  oninput="tabsearch.onTabSearchInput(event);"
                  />
-        <label id="tabsearch-debug" value="test"/>
       </hbox>
     </toolbar>
   </window>
