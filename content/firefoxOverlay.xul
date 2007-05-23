@@ -12,4 +12,26 @@
     <menuitem id="tabsearch-hello" label="&tabsearch.label;" 
               oncommand="tabsearch.onMenuItemCommand(event);"/>
   </menupopup>
+
+  <commandset id="tabsearch-command-set">
+    <command id="tabsearch-show-toolbar" oncommand="tabsearch.show_toolbar()"/>
+  </commandset>
+
+  <keyset id="tabsearch-key-set">
+    <key id="tabsearch-show-toolbar" key="'" modifiers="control" oncommand="tabsearch.show_toolbar()"/>
+  </keyset> 
+
+  <window id="main-window">
+    <toolbar id="tabsearch-toolbar" insertbefore="status-bar">
+      <hbox>
+        <textbox id="tabsearch-find-field" 
+                 onkeypress="tabsearch.onTabSearchKeyPress(event);"
+                 onblur="tabsearch.onTabSearchBlur(event);"
+                 oninput="tabsearch.onTabSearchInput(event);"
+                 />
+        <label id="tabsearch-debug" value="test"/>
+      </hbox>
+    </toolbar>
+  </window>
+
 </overlay>
