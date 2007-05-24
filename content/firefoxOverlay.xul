@@ -8,11 +8,6 @@
     <stringbundle id="tabsearch-strings" src="chrome://tabsearch/locale/tabsearch.properties"/>
   </stringbundleset>
 
-  <menupopup id="menu_ToolsPopup">
-    <menuitem id="tabsearch-hello" label="&tabsearch.label;" 
-              oncommand="tabsearch.onMenuItemCommand(event);"/>
-  </menupopup>
-
   <commandset id="tabsearch-command-set">
     <command id="tabsearch-show-toolbar" oncommand="tabsearch.show_toolbar()"/>
   </commandset>
