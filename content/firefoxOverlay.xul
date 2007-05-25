@@ -9,7 +9,7 @@
   </stringbundleset>
 
   <commandset id="tabsearch-command-set">
-    <command id="tabsearch-show-toolbar" oncommand="tabsearch.show_toolbar()"/>
+    <command id="command-tabsearch-show-toolbar" oncommand="tabsearch.show_toolbar()"/>
   </commandset>
 
   <keyset id="mainKeyset">
