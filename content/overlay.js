@@ -67,13 +67,11 @@ var tabsearch = {
       if (!find_string.value)
         return;
 
-
-      //alert(find_string.value);
-      //this.find(find_string.value);
       gBrowser.mTabContainer.selectedItem = this._matches[0];
       this.cancel_search();
     } else if (e.keyCode == KeyEvent.DOM_VK_ESCAPE) {
       this.cancel_search();
+      return false;
     }
   },
 
