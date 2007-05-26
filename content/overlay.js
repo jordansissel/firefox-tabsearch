@@ -42,8 +42,8 @@ var tabsearch = {
       var url = browser.currentURI.spec;
       var t_label = re.test(label);
       var t_url = re.test(url);
-      this.debug("url: (" + t_url + ") " + url + " vs " + re);
-      this.debug("label: (" + t_label + ") " + label + " vs " + re);
+      //this.debug("url: (" + t_url + ") " + url + " vs " + re);
+      //this.debug("label: (" + t_label + ") " + label + " vs " + re);
       if (!(t_label || t_url))
         return false;
     }
@@ -51,7 +51,7 @@ var tabsearch = {
   },
 
   cancel_search: function() {
-    this.debug("cancel");
+    //this.debug("cancel");
     var num = gBrowser.browsers.length;
     for (var i = 0; i < num; i++) {
       var tab = gBrowser.mTabContainer.childNodes[i];
@@ -80,8 +80,8 @@ var tabsearch = {
 
     if (find_string)
       this.find(find_string);
-    else
-      this.debug("EMPTY!");
+    //else
+      //this.debug("EMPTY!");
   },
 
   onTabSearchBlur: function(e) {
