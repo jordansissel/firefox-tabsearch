@@ -19,8 +19,9 @@
   <window id="main-window">
     <toolbar id="tabsearch-toolbar" insertbefore="status-bar" hidden="true">
       <hbox>
-        <label value="Search tabs:" />
-        <textbox id="tabsearch-find-field" 
+        <label value="&tabsearch.searchbar.label;:" />
+        <textbox id="tabsearch-find-field"
+                 style="valign: middle;"
                  onkeypress="tabsearch.onTabSearchKeyPress(event);"
                  onblur="tabsearch.onTabSearchBlur(event);"
                  oninput="tabsearch.onTabSearchInput(event);"

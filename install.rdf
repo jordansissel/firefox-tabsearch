@@ -4,7 +4,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>tabsearch@jordan.sissel</em:id>
     <em:name>tabsearch</em:name>
-    <em:version>20070526</em:version>
+    <em:version>20070531</em:version>
     <em:creator>Jordan Sissel</em:creator>
     <em:description>Search tabs</em:description>
     <em:homepageURL>http://www.semicomplete.com/projects/firefox-tabsearch</em:homepageURL>
