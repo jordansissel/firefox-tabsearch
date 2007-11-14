@@ -9,7 +9,8 @@ var tabsearch = {
   },
 
   debug: function(val) {
-    this._console.logStringMessage(val);
+    //this._console.logStringMessage(val);
+    dump(val);
   },
 
   find: function(text) {
