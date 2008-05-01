@@ -1,4 +1,4 @@
-content	tabsearch	content/
-locale	tabsearch	en-US	locale/en-US/
+content	tabsearch	jar:chrome/tabsearch.jar!/content/
+locale	tabsearch	en-US	jar:chrome/tabsearch.jar!/locale/en-US/
 skin	tabsearch	classic/1.0	skin/
-overlay	chrome://browser/content/browser.xul	chrome://tabsearch/content/firefoxOverlay.xul
+overlay	chrome://browser/content/browser.xul	chrome://tabsearch/content/firefoxOverlay.xul application={ec8030f7-c20a-464f-9b0e-13a3a9e97384}
